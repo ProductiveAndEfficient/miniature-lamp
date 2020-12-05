@@ -5,6 +5,10 @@
   "repository": "https://github.com/ProductiveAndEfficient/miniature-lamp.git",
   "author": "lemon-mint <55233766+lemon-mint@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -17,9 +21,5 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.12.4"
-  },
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
   }
 }
