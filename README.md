@@ -1,5 +1,6 @@
 # miniature-lamp
 Minimal React js template
+![BUILD](https://github.com/ProductiveAndEfficient/miniature-lamp/workflows/BUILD/badge.svg)
 ## Dev server
 `yarn start` to open parcel server
 
